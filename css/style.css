@@ -37,7 +37,7 @@ i { font-style: normal; font-weight: normal; font-size: 1.4rem; }
 /* 헤더 컨텐트 푸터 공통 */
 /* header */
 body { width: 100%; }
-header { position: fixed; width: 100%; min-width: 960px; padding: 0 0 0 20px; height: 60px; border-bottom: 1px solid #d4d4d4; box-shadow: 1px 5px 5px #ddd; background-color: #fff; z-index: 999;}
+header { position: fixed; width: 100%; min-width: 960px; padding: 0 0 0 20px; height: 60px; border-bottom: 1px solid #d4d4d4; box-shadow: 0px 5px 5px #e8e8e8; background-color: #fff; z-index: 999;}
 header > * { float: left;  }
 header > div > * > * { display: inline-block; }
 header .logo { margin: 10px; }
@@ -65,17 +65,13 @@ header .search.focusIn .optionBox.active .select div,
 header .search.focusIn .optionBox.active .userselect div { float: left; width: calc(100% / 3); }
 header .search.focusIn .optionBox.active label { padding: 0 10px; border: 1px solid #d4d4d4; border-radius: 15px; background:#fff; }
 header .search.focusIn .optionBox.active i { padding: 0; font-size: 1rem; color: #8a8a8a; }
-
 header .search.focusIn .optionBox.active .userselect { float: none;}
 
-
-.content { width: 100%; position: absolute; top: 60px; }
-footer { width: 100%; }
-
-div:not(.search.focusIn) { background: rgb(103, 206, 219);}
-
-.bgbox.active { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: .6; }
-/* .search.focusIn {background: red} */
+/* 컨텐트영역 */
+.content { width: 100%; position: absolute; top: 60px; background: #fff; }
+/* 푸터영역 */
+footer { position: absolute; width: 100%; line-height: 40px; text-align: center; background: #251e4a; color: yellow; border-top: 1px solid #d4d4d4; box-shadow: 0px -2px 5px #e8e8e8; }
+.bgbox.active { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; opacity: .9;}
 /** 지인  끝 **/
 
 
